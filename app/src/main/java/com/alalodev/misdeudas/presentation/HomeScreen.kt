@@ -145,7 +145,7 @@ fun Balance(isLoading: Boolean, totalAmount: String, onAddTransactionSelected: (
         ) {
             Row {
                 Column {
-                    Text("Debes", color = Color.White)
+                    Text("Owed", color = Color.White)
                     Spacer(modifier = Modifier.height(6.dp))
                     if (isLoading) {
                         CircularProgressIndicator()
